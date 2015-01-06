@@ -14,15 +14,15 @@ class Category_700 {
 		buy[] ={1000,"Coins"};
 		sell[] ={1000,"Coins"};
 	};
-	class ItemSilverBar {
-		type = "trade_items";
-		buy[] ={10,"Coins"};
-		sell[] ={10,"Coins"};
-	};
 	class ItemSilverBar10oz {
 		type = "trade_items";
 		buy[] ={100,"Coins"};
 		sell[] ={100,"Coins"};
+	};
+	class ItemSilverBar {
+		type = "trade_items";
+		buy[] ={10,"Coins"};
+		sell[] ={10,"Coins"};
 	};
 	class ItemCopperBar10oz {
 		type = "trade_items";
