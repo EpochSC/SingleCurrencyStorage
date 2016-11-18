@@ -1,7 +1,7 @@
 if(DZE_ActionInProgress) exitWith { cutText [(localize "str_epoch_player_10") , "PLAIN DOWN"]; };
 DZE_ActionInProgress = true;
 
-private ["_dialog","_playersNearStorage];
+private ["_dialog","_playersNearStorage"];
 ZSC_CurrentStorage = _this select 3;
 _playersNearStorage = {isPlayer _x} count (ZSC_CurrentStorage nearEntities ["CAManBase", 6]);
 
